@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #25a2c3;
+    line-height: 1;
+    text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6{
+    font-size: 0.75em;
+}
+
+p{
+    text-align: center;
+   
+    margin-bottom: 1em;
+}
+#header {
+    text-align: center;
+    background-color: black;
+    padding: 1.25em;
+}
+
+body{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'open sans', sans-serif;
+    font-size: 1.2em;
+    color: #393d41;
+    line-height: 1.65;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #25a2c3;
+    color: white;
+}
+
+.banner{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.partiamo{
+    text-align: center;
+    padding-bottom: 2em;
+}
+button{
+    padding: 0.8em 2em 0.8em 2em;
+    background-color: #f04c2f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.firsth{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.notebook{
+    text-align: center;
+}
+.heads{
+    padding-top: 3em;
+}
+.testimonianze{
+    background-color: #f04c2f;
+    color: white;
+}
+.h1testi{
+    color: white;
+    font-weight: bold;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+.specialp{
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+hr{
+    color: white;
+    width: 200px;
+}
+a{
+    color: white;
+}
+

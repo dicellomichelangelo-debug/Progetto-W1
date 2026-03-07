@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #25a2c3;
+    line-height: 1;   
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4{
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6{
+    font-size: 0.75em;
+}
+#header {
+    background-color: black;
+    padding: 1.25em;
+}
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 1.2em;
+    color: #393d41;
+    line-height: 1.65;
+    
+    text-align: start; 
+}
+footer{
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+}
+.banner{
+    background-size: cover;
+    background-image: url(Media/banner.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.partiamo{
+    text-align: center;
+    padding-bottom: 5em;
+}
+button{
+    padding: 0.8em 2em 0.8em 2em;
+    background-color: #f04c2f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.firsth{
+    padding-top: 5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
+.notebook{
+   display: inline-block;
+   
+}
+
+.contentNB{
+    width: 800px;
+    text-align: start; 
+}
+#mainNB{
+    padding-top: 10em; 
+    padding-bottom: 10em;   
+    display: grid;
+    grid-template-columns: 426px 1fr;
+    gap: 80px;
+    padding-left: 20em;
+}
+.heads{
+    padding-top: 2.5em;
+}
+.testimonianze{
+    background-color: #f04c2f;
+    color: white;
+    text-align: center;
+}
+.h1testi{
+    color: white;
+    font-weight: bold;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+.specialp{
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+hr{
+    color: white;
+    width: 200px;
+}
+a{
+    color: white;
+}
+.piccontainer{
+    display: grid;
+    grid-template-columns: 400px repeat(3,1fr);
+    gap: 30px;
+    text-align: center;
+    padding-left: 16.5em;
+    margin-top: 3em;
+    margin-bottom: 6em;
+}
+.saldar{
+    padding-bottom: 2em;
+    padding-top: 2em;
+    display: block;
+    text-align: center;
+}
+
+
